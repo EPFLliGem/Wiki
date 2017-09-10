@@ -1,7 +1,6 @@
 html,body{
-    margin:0;
-    height:100%;
-    overflow:none;
+	margin:0;
+	height:100%;
 }
 
  #menu-bar {
@@ -14,24 +13,49 @@ html,body{
  }
 
 .wrapper {
-		display: none;
-		grid-template-columns: 5% 30% 30% 30% 5%;
-		/*grid-gap: 1px;*/
-		background-color: #02303A;
-		height: 91%;
-		width: 100%;
-		position: fixed; 
-		margin-top: 3%;
-		opacity: 0.98;
+	display: none;
+	position: fixed; 
+	background-color: #02303A;
+	height: 100%;
+	width: auto; 
+	opacity: 0.98;
+	padding-top: 3%; 
+	overflow: auto;
 }
 
-.box {
-  background-color: #02303A;
-  font-size: 150%;
-  color: #AADCE8;
-  border-radius: 0px;
-  padding-left: 20px; 
-  padding-top: 10px;
+.menu-item {
+	position: relative;
+	float: left;
+	background-color: #02303A;
+	font-size: 150%;
+	color: #AADCE8;	
+	padding: 10px; 
+	min-width: 250px; 
+}
+
+.menu-small {
+	display: inline;
+	width:23.5%; 
+	height: 25%;
+	min-height: 20%; 
+}
+
+.menu-big {
+	display: inline-block; 
+	width: 100%; 
+	height: 40%; 
+	overflow: auto;
+}
+
+.menu-subproject {
+	position: relative;
+	float: left;
+	width:31%; 
+	margin: 1%;
+	background-color: #02303A;
+	color: #AADCE8;
+	min-width: 250px; 
+	height: 80%; 	
 }
 
 .menu-item:hover {
@@ -46,28 +70,9 @@ html,body{
 	color: #fff;
 }
 
-#logo {
-	fill: #fff;
-	height: 95%;
-	width: auto;
-	margin-left: 10px;
-	margin-top: 1px;
-	float: left; 
-}
-
-#menu-icon {
-	fill: #fff;
-	height: 100%;
-	width: auto;
-	float: right;
-}
-
-#menu-icon:hover {
-	cursor: pointer;
-}
-
 .submenu-item {
 	float: left;
+	width:100%;
 }
 
 .submenu-item>li {
@@ -88,4 +93,25 @@ html,body{
 	font-size: 70%; 
 	color:  #356368;
 	padding-bottom: 5px; 
+}
+
+
+#menu-logo {
+	fill: #fff;
+	height: 95%;
+	width: auto;
+	margin-left: 10px;
+	margin-top: 1px;
+	float: left; 
+}
+
+#menu-icon {
+	fill: #fff;
+	height: 100%;
+	width: auto;
+	float: right;
+}
+
+#menu-icon:hover {
+	cursor: pointer;
 }
