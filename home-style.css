@@ -1,0 +1,118 @@
+html,body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+		text-align: left;
+		padding-left: 10%;
+		padding-right: 10%; 
+		margin-top: 100px; 
+}
+
+#home-logo {
+	width:50%;
+	height: auto; 	
+}
+
+#first {
+	text-align: center;
+	margin: auto;
+}
+
+
+.description_element {
+	width: 50%;
+	height: auto;
+}
+
+.description_element3 {
+	width: 20%;
+	height: auto;
+}
+
+.section{
+	position: relative;
+    z-index: 1;
+    margin: 0 auto; 
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+
+.text-container {
+	display: inline-block;
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	background-color: #FFF;
+	bottom: 20px; 
+	text-align: center;
+	border-radius: 35px;
+}
+
+.right {
+	margin-left: 58%; 
+}
+
+ .left {
+	margin-left: 2%; 
+}
+
+/*SVG LOGO STYLE*/
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes change-color { from { fill:#000000; } to { fill:#00E6F0; } }
+@-moz-keyframes change-color {  from { fill:#000000; } to { fill:#00E6F0; } }
+@keyframes change-color {  from { fill:#000000; } to { fill:#00E6F0; } }
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes appear { from { opacity:0; } to { opacity:1;} }
+@-moz-keyframes appear {  from { opacity:0; } to { opacity:1;} }
+@keyframes appear {  from { opacity:0; } to { opacity:1;} }
+
+.fade-in {
+	fill:#000000;  /* make things invisible upon start */
+	-webkit-animation:change-color ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:change-color ease-in 1;
+	animation:change-color ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:10s;
+	-moz-animation-duration:10s;
+	animation-duration:10s;			
+}
+
+.letters-appear {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:appear ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:appear ease-in 1;
+	animation:appear ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	animation-duration:5s;			
+}
+
+.circles-appear {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:appear ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:appear ease-in 1;
+	animation:appear ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	animation-duration:5s;			
+}

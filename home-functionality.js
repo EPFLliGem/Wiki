@@ -1,0 +1,6 @@
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+	    sectionsColor: ['#E5E5E5', '#E5E5E5', '#E5E5E5', '#E5E5E5'],
+			scrollingSpeed: 1000,
+	});
+});
