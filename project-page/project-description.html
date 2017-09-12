@@ -1,0 +1,42 @@
+<html>
+	<head>
+	    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	    <script src="description-functionality.js"></script>
+	    <link rel="stylesheet" type="text/css" href="description-style.css">
+	</head>
+
+	<body>
+	<div class="content-description">
+		<div class="part-content">
+			<div class="title">Abstract</div>
+			<p>The emerging field of cell-free synthetic biology promises to significantly improve molecular diagnostics. Cell-free systems for engineering and implementation allows for fast testing cycles, ready-to-use detection devices, better biosafety, as well as cheap and easy transport and storage. Previously, Pardee et al. developed a cell-free system for detecting viral RNA in patients by engineering toehold switches coupled to lacZ for signal generation.</p>
+			<P>Since many clinical tests rely on the detection of protein biomarkers, we developed a novel scheme for detecting proteins by coupling aptamer based affinity reagents to the toehold-switch concept in cell-free system. We furthermore improved on various aspects of the original Pardee cell-free system to create a tool that is more effective, cheaper and easier to use. Because the system can be rapidly engineered and deployed, and all parts can be modified to recognize different protein or RNA molecules, it’s a highly modular and novel diagnostic tool.</p>
+		</div>
+		<div class="part-content">
+			<div class="title">Introduction</div>
+			<p>Toe-hold switches were shown to be an effective construct for regulating RNA translation. Recently, Pardee et al. also showed they could be used to detect viral RNA in cell-free paper based expression systems, effectively developing a low-cost easy to use and portable diagnostic test. Inspired by this result, we aim to develop biosensors in the same vein as that developed by Pardee, but this time targeting proteins. Essentially we would like to have a modular biological part that could transduce a protein signal, i.e. the concentration of a target protein in a sample, into a genetic one, such as the translation or transcription of a gene.</p>
+			<p>First of all this would allow diagnosis of diseases that cannot be detected by the presence of pathogenic RNA in serum. Second it would allow the detection of microorganisms and proteins for applications beyond diagnostics. Third, a protein-RNA transducer would allow for integrative sensors with logic and auto-regulation, and would also expand the possibilities for the design of biological circuits.</p>
+		</div>
+
+		<div class="part-content">
+			<div class="title">In more details</div>
+			<p>The first biosensor concept we will work on is a sandwich-based assay. Briefly, we would use a pair of protein-binding compounds, either aptamers or scFvs, that target separate epitopes of our target protein. One of these would be fixed on a magnetic bead. On the other we could attach RNA or DNA. This would all be mixed into a test sample, after which the beads would be pulled down, and the rest of the sample discarded. If the target protein was present in the sample, a complex would form between the bead, the protein, and our attached RNA or DNA, because of the interaction of the aptamers/scFvs. Thus, when the beads are then placed in a cell-free expression system, the attached RNA or DNA would be « read » and an output would be produced. In the case of a simple biosensor, this output would be a reporter protein such as GFP. In the case of a more complex biosensor, the output would lead into a logic circuit for example. The attached DNA would then either encode for a transcription factor, or it could be a trigger sequence that would flip a toe-hold switch controlling another gene.</p>
+			<p>A second part of our project will therefore be developing toe-hold switches to go from the output of our biosensor to a biological logic circuit. This would allow us to integrate several signals from the biosensor such as the presence of multiple proteins. This would lead to the development of more complex sensors that could, for example, identify the origin of a wine based on the protein « fingerprint » of the yeast species used wine’s production.</p>
+			<p>Because the separation step involved in the bead-based sensor would be impossibly cumbersome for continuous sensing, our next goal will be to develop a protein targeting switch, very similar to toe-hold switches. This would then constitute a real protein-RNA transducer. The basic idea would be to take a toe-hold switch and replace its trigger region with an aptamer region. We believe this aptamer region would change conformation when binding a protein, thereby opening up the switch region and leading to the expression of the downstream gene.</p>
+			<p>Finally, because these switches would need to be easily designable in order to be useful as biological parts, we would explore different selection methods to identify aptamer regions that work well in the switch compound. The main challenge here is that contrary to toe-hold switches, this new class of switches would not be easily designed on computers. We would have to develop an in vitro assay method that could consistently yield suitable aptamer sequences for any given protein.</p>
+			</p>
+		</div>
+
+		<div class="part-content">
+			<div class="title">Applications and implications</div>
+			<p>First of all, an easily deployable and cost-effective protein biosensor has many advantages. Many impoverished regions, for example, lack the resources and facilities for standard laboratory protein assays like ELISA, which are regularly used to diagnose diseases like malaria. Thus there is a need for an affordable alternative.
+			This would not only improve treatment of sick people in these regions, it could also be used to fight crop diseases for example.</p>
+
+			<p>Secondly a sensor that can integrate multiple inputs into a single output would allow for more sophisticated tests. As mentioned previously this could be used to authenticate the origin of wines in the restaurant industry. This would also be useful in developing more sophisticated diagnostic tests which could take into account several factors before giving a result, thereby increasing the test’s accuracy.</p>
+
+			<p>Finally a general protein-RNA transducer would allow the implementation of biological circuits that take protein concentrations as inputs. This kind of biological element is still lacking. These kinds of circuits would have many uses. For example, it could be used to monitor an engineered metabolic pathway to optimize reaction conditions by reacting to different concentrations of enzymes and other proteins that might influence the reaction rate. This could also be used to develop circuits that could mediate complex biological processes by recognizing the production of certain transcription factors, or even post-translational modifications, and reacting accordingly. This could then be developed into « smart » therapeutics that would be more precise and effective than current drugs.</p>
+		</div>
+	</div>
+	</body>
+</html>

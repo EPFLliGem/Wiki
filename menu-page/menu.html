@@ -1,36 +1,15 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="team-functionality.js"></script>
-	<link rel="stylesheet" type="text/css" href="team-style.css">
-	<script src="menu-functionality.js"></script>
-	<link rel="stylesheet" type="text/css" href="menu-style.css">
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-	<script type="text/javascript">
-	$(document).ready(function() {
-	    $( "#dialog" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "blind",
-	        duration: 500
-	      }
-		});
+	<head>
+	    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="menu-functionality.js"></script>
+		<link rel="stylesheet" type="text/css" href="menu-style.css">
+	</head>
 
-	    $( ".teammate" ).on( "click", function() {
-	   		$( "#dialog" ).dialog( "open" );
-	    });
-  });
-	</script>
-</head>
-<body>
-
-	<div id="menu">
+	<body>
 		<div id="menu-bar">
-			<svg version="1.1" id="logo" x="0px" y="0px"
+			<svg version="1.1" id="menu-logo" x="0px" y="0px"
 		width="424.492px" height="131.764px" viewBox="0 0 424.492 131.764" enable-background="new 0 0 424.492 131.764" xml:space="preserve">
 				<g>
 						<path d="M152.347,117.507l-0.497-4.393h-0.213c-1.916,2.736-5.605,5.185-10.501,5.185c-6.953,0-10.501-4.968-10.501-10.009
@@ -136,158 +115,90 @@
 	</g>
 </svg>
 		</div>
-
 		<div id="menu-content">
 			<div class="wrapper">
+
 			  <!-- First row-->
-			  <div class="box placeholder"> </div>
-			  <div class="box menu-item">
+			  <div class="menu-small menu-item">
 			  	  <ul class="submenu-item">
-		  	  		<li class="main-submenu-item"> <a href="file:///C:/Users/Natalija/Desktop/Wiki-iGEM/home.html">Home</a><li>
+		  	  		<li  class="main-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/home.html">Home</a></li>
 			  	</ul>
 			  </div>
-			  <div class="box menu-item">
-		  	  	<ul class="submenu-item">
-		  	  		<li class="main-submenu-item">Project<li>
-			  		<li class="sec-submenu-item">Description</li>
-			  		<li class="sec-submenu-item">Design</li>
-			  		<li class="sec-submenu-item">Experiments</li>
-			  		<li class="sec-submenu-item">Proof of concept</li>
-			  		<li class="sec-submenu-item">Results</li>
-			  	</ul>
 
-
-			  </div>
-			  <div class="box menu-item">  	  	
+			<div class="menu-small menu-item">  	  	
 				  <ul class="submenu-item">
-			  	  		<li class="main-submenu-item">Team<li>
-				  		<li class="sec-submenu-item">Collaborations</li>
-				  	</ul>
-				</div>
-			  <div class="box placeholder"> </div>
+			  	  		<li class="main-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/team.html">Team</a></li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/team.html">Collaborations</a></li>
+				  </ul>
+			 </div>
+			
+			<div class="menu-small menu-item">
+			  	<ul class="submenu-item">
+		  	  		<li class="main-submenu-item">Lab</a>
+			  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/safety.html">Safety</a></li>
+			  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/protocols.html">Protocols</a></li>
+			  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/notebooks.html">Notebook</a></li>
+			  	</ul>
+			  </div>
+
+ 			  <div class="menu-small menu-item">
+			  	<ul class="submenu-item">
+		  	  		<li class="main-submenu-item">Parts</li>
+			  	</ul>
+			  </div>
 
 			  <!-- Second row-->
-			  <div class="box placeholder"> </div>
-			  <div class="box menu-item">
-			  	<ul class="submenu-item">
-		  	  		<li class="main-submenu-item">Lab<li>
-			  		<li class="sec-submenu-item">Safety</li>
-			  		<li class="sec-submenu-item">Protocols</li>
-			  		<li class="sec-submenu-item" href="file:///C:/Users/Natalija/Desktop/Wiki-iGEM/notebooks.html">Notebook</li>
-			  		<li class="sec-submenu-item">Medal criteria</li>
-			  	</ul>
-			  </div>
-			  <div class="box menu-item">
+			  
+			  <div class="menu-big menu-item">
+				<div> <a href="/home/natalija/Documents/iGEM/Wiki-iGEM/project-description.html">Project </a></div>
+		  	  	<div class="menu-subproject">
+					<ul class= "submenu-item">
+				  		<li class="main-submenu-item">Aptamers</li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/aptamers-description.html">Description</a></li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/aptamers-results.html">Results</a></li>
+				  	</ul>
+			  	</div>
+				<div class="menu-subproject">
+					<ul class= "submenu-item">
+				  		<li class="main-submenu-item">Toehold</li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/toehold-description.html">Description</a></li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/toehold-results.html">Results</a></li>
+
+				  	</ul>
+			  	</div>
+
+				<div class="menu-subproject">
+					<ul class= "submenu-item">
+				  		<li class="main-submenu-item">Lysates</li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/lysates-description.html">Description</a></li>
+				  		<li class="sec-submenu-item"><a href="/home/natalija/Documents/iGEM/Wiki-iGEM/lysates-results.html">Results</a></li>
+				  	</ul>
+			  	</div>
+			</div>
+			  
+			  <!-- Third row-->
+			  <div class="menu-small menu-item">
 			  	<ul class="submenu-item">
 		  	  		<li class="main-submenu-item">Human practices<li>
-			  		<li class="sec-submenu-item">Silver</li>
-			  		<li class="sec-submenu-item">Engagement</li>
 			  	</ul>
 			  </div>
-			  <div class="box menu-item">
+			  <div class="menu-small menu-item">
 			  	<ul class="submenu-item">
 		  	  		<li class="main-submenu-item">Attributions<li>
 			  	</ul>
 			  </div>
-			  <div class="box placeholder"> </div>
 			  
-			  <!-- Third row-->
-			  <div class="box placeholder"> </div>
-			  <div class="box menu-item">
-			  	<ul class="submenu-item">
-		  	  		<li class="main-submenu-item">Parts<li>
-			  	</ul>
-			  </div>
-			  <div class="box menu-item">
+			  <div class="menu-small menu-item">
   	  			    <ul class="submenu-item">
 			  	  		<li class="main-submenu-item">Software<li>
-				  		<li class="sec-submenu-item">Cello</li>
-				  		<li class="sec-submenu-item">Database</li>
-				  		<li class="sec-submenu-item">Model</li>
-				  		<li class="sec-submenu-item">DESKGEN</li>
 			  	    </ul>
 			  </div>
-			  <div class="box menu-item">  
+			  <div class="menu-small menu-item">  
 			  	<ul class="submenu-item">
 			  	  		<li class="main-submenu-item">Contact<li>
 			  	</ul>
 			  </div>
-  			  <div class="box placeholder"> </div>
 			</div>
 		</div>
-	</div>
-	<div id="photo">
-			<img src="team3.JPG"> 
-	</div>
-
-	<div id="description-container">
-		<div id="title">
-			<p>Team</p>
-		</div>
-		<div class="teammate">
-			<img class="teammate-photo under" src="natalija.jpg"> 
-			<img class="teammate-photo over" src="Computer_Scientist.png"> 
-			<p class="name">Natalija Gucevska</p>
-		</div>
-
-		<div id="dialog">
-  			<p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-		</div>
-
-
-		<div class="teammate">
-			<img class="teammate-photo" src="lena.jpg"> 
-			<img class="teammate-photo over" src="Bioengineers.png"> 
-			<p class="name">Lena Bruhin</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo" src="matteo.jpg"> 
-			<img class="teammate-photo over" src="Chemist.png"> 
-			<p class="name">Matteo Pirson</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo under" src="natalija.jpg"> 
-			<img class="teammate-photo over" src="Computer_Scientist.png"> 
-			<p class="name">Natalija Gucevska</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo" src="lena.jpg"> 
-			<img class="teammate-photo over" src="Bioengineers.png"> 
-			<p class="name">Lena Bruhin</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo" src="matteo.jpg"> 
-			<img class="teammate-photo over" src="Chemist.png"> 
-			<p class="name">Matteo Pirson</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo under" src="natalija.jpg"> 
-			<img class="teammate-photo over" src="Computer_Scientist.png"> 
-			<p class="name">Natalija Gucevska</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo" src="lena.jpg"> 
-			<img class="teammate-photo over" src="Bioengineers.png"> 
-			<p class="name">Lena Bruhin</p>
-		</div>
-
-		<div class="teammate">
-			<img class="teammate-photo" src="matteo.jpg"> 
-			<img class="teammate-photo over" src="Chemist.png"> 
-			<p class="name">Matteo Pirson</p>
-		</div>
-
-
-
-
-	</div>
-
-	
-</body>
+	</body>
 </html>

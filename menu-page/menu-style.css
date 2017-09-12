@@ -1,6 +1,7 @@
 html,body{
 	margin:0;
 	height:100%;
+        font-family: 'Roboto', sans-serif;
 }
 
  #menu-bar {
@@ -12,15 +13,20 @@ html,body{
  	top: 0px;
  }
 
+#menu-content {
+	background-color: #02303A;
+	width:100%;
+}
+
 .wrapper {
 	display: none;
 	position: fixed; 
 	background-color: #02303A;
 	height: 100%;
-	width: auto; 
 	opacity: 0.98;
-	padding-top: 3%; 
+	padding-top: 5%; 
 	overflow: auto;
+	margin: 0 auto; 
 }
 
 .menu-item {
@@ -35,8 +41,8 @@ html,body{
 
 .menu-small {
 	display: inline;
-	width:23.5%; 
-	height: 25%;
+	width:23.75%; 
+	height: 23%;
 	min-height: 20%; 
 }
 
@@ -59,6 +65,10 @@ html,body{
 }
 
 .menu-item:hover {
+	background-color: #356368;
+}
+
+.menu-item:hover .menu-subproject {
 	background-color: #356368;
 }
 
@@ -114,4 +124,9 @@ html,body{
 
 #menu-icon:hover {
 	cursor: pointer;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
