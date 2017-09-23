@@ -2,11 +2,11 @@
 
 Team page: http://2017.igem.org/Team:EPFL
 
+! You must login to edit the page
+
 ## Notebooks
 
-1. Go to http://2017.igem.org/Team:EPFL/Notebook
-2. Go to Wiki tools -> Edit 
-3. Place the content in this template
+1. Place your content in this template
 
 ```html
 <div class="weekly-notebook {x}" id="week{y}">
@@ -24,13 +24,40 @@ Team page: http://2017.igem.org/Team:EPFL
 	</div>
  </div>
  ```
-		 
+ 
 	- Replace DD/MM with the coresponding date/month
 	- Replace {y} with the number of week (i.e. 02 for the second week, 10 for the 10th week) 
 	- Replace {x} with left if the week is odd or with right if the week is even
 
+2. Go to http://2017.igem.org/Team:EPFL/Notebook 
+3. Go to Wiki tools -> Edit
 4. Find the line `<!-- Insert new week before this line -->`
 5. Copy/paste the prepared content above the line
 6. Save or preview the updated page
 
-N.B: The option to add figures to notebooks will be added in few days. 
+`N.B. The option to add figures to notebooks will be added in few days.` 
+
+---
+
+## Aptamers, Toehold or Lysates description 
+
+1. Place your content in this template
+
+```html 
+<div class="part-content"> 
+	<div class="title" > Add the title of the section here </div>
+
+		<p> Add first paragraphe here</p>
+		<p> Add second paragraphe here</p>
+		<p> Add third paragraphe here...  </p>
+		<p> Add/Remove the <p>...</p> tags if you have more/less paragraphs to add .... </li>
+	</div>
+</div>
+```
+2. Go to http://2017.igem.org/Team:EPFL/Description/{X}
+	- Replace {X} by Aptamers, Lysates or Toehold
+3. Go to Wiki tools -> Edit
+4. Find the line `<!-- Insert new week before this line -->`
+5. Copy/paste the prepared content above the line
+6. Save or preview the updated page
+
