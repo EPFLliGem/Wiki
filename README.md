@@ -7,7 +7,6 @@ Team page: http://2017.igem.org/Team:EPFL
 1. Go to http://2017.igem.org/Team:EPFL/Notebook
 2. Go to Wiki tools -> Edit 
 3. Place the content in this template
----
         ```html
 		<div class="weekly-notebook {x}" id="week{y}">
 			<div class="date"> DD/MM/2017 - DD/MM/2017 </div>
@@ -26,9 +25,9 @@ Team page: http://2017.igem.org/Team:EPFL
         ```
         - Replace {x} with left if the week is odd or with right if the week is even
         - Replace {y} with the number of week (i.e. 02 for the second week, 10 for the 10th week) 
----
+
 4. Find the line `<!-- Insert new week before this line -->`
-5. Place copy/paste the prepared content above the line
+5. Copy/paste the prepared content above the line
 6. Save or preview the updated page
 
 N.B: The option to add figures to notebooks will be added in few days. 
