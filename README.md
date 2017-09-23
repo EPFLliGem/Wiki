@@ -1,4 +1,4 @@
-# Wiki udating guide
+# Wiki updating guide
 
 Team page: http://2017.igem.org/Team:EPFL
 
