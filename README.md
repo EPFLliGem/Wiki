@@ -54,14 +54,27 @@ Team page: http://2017.igem.org/Team:EPFL
 	</div>
 </div>
 ```
+In order to add a figure in your description, use this template: 
+
+```html
+...
+<p> In this paragraph I talk about my figure...</p>
+<figure>
+	<img src="Link to your image here">
+	<figcaption>Title of the figure</figcaption>
+</figure>
+...
+```
+Follow [this](#upload-fig) description to get the link for your image. 
+
 2. Go to http://2017.igem.org/Team:EPFL/{Y}/{X}
 	- Replace {X} by Aptamers, Lysates or Toehold
 	- Replace {Y} by Results or Description 
 3. Go to Wiki tools -> Edit
-4. Copy/PAste the prepared content between a `<div>`s with `class="part-content"`, depending on the desired position in the Wiki. 
+4. Copy/Paste the prepared content between a `<div>`s with `class="part-content"`, depending on the desired position in the Wiki. 
 6. Save or preview the updated page
 
-## Upload image on the wiki server <id="upload-fig">
+## Upload image on the wiki server <div id="upload-fig"/>
 1. Go to http://2017.igem.org/Team:EPFL 
 2. Go to Wiki tools -> Upload files 
 3. Select the desired file from your computer
