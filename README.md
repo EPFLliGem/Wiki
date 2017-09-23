@@ -57,7 +57,7 @@ Team page: http://2017.igem.org/Team:EPFL
 2. Go to http://2017.igem.org/Team:EPFL/Description/{X}
 	- Replace {X} by Aptamers, Lysates or Toehold
 3. Go to Wiki tools -> Edit
-4. Find the line `<!-- Insert new week before this line -->`
+4. Find the line `<!-- Insert new description before this line -->` (Or feel free to place the description elsewhere but before/after other <div> with class="part-content"). 
 5. Copy/paste the prepared content above the line
 6. Save or preview the updated page
 
