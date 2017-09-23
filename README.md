@@ -39,7 +39,7 @@ Team page: http://2017.igem.org/Team:EPFL
 
 ---
 
-## Aptamers, Toehold or Lysates description 
+## Aptamers, Toehold or Lysates description/results
 
 1. Place your content in this template
 
@@ -54,10 +54,11 @@ Team page: http://2017.igem.org/Team:EPFL
 	</div>
 </div>
 ```
-2. Go to http://2017.igem.org/Team:EPFL/Description/{X}
+2. Go to http://2017.igem.org/Team:EPFL/{Y}/{X}
 	- Replace {X} by Aptamers, Lysates or Toehold
+	- Replace {Y} by Results or Description 
 3. Go to Wiki tools -> Edit
-4. Find the line `<!-- Insert new description before this line -->` (Or feel free to place the description elsewhere but before/after other <div> with class="part-content"). 
+4. Place the description before/after other <div> with class="part-content", depending on the desired position in the Wiki. 
 5. Copy/paste the prepared content above the line
 6. Save or preview the updated page
 
