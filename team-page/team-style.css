@@ -2,14 +2,12 @@ html,body{
     margin:0;
     height:100%;
     overflow:none;
+}
+
+#description-container p{
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-	position: absolute; 
-	width: 100%;
-	height: auto;
-}
 
 #photo {
 	width:100%;
@@ -17,7 +15,12 @@ img {
 	background-color: #428184;
 }
 
-#title {
+#photo img {
+       width: 100%; 
+       height: auto; 
+}
+
+#title p {
 	margin-left: 200px; 
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -29,7 +32,7 @@ img {
 	display: inline-block;
 	position: relative;
 	float: left;
-	margin-left: 7.5%; 
+	margin-left: 6.5%; 
 	width: 25%;
 	min-height: 600px;
 	color: #02303A;
@@ -46,11 +49,12 @@ img {
     	left: 0px;
 }
 
-.name {
+#description-container .name {
 	margin-top: 500px;
 	width: 100%;
 	font-size: 200%;
 	min-height: 60px; 
+	text-align: center;
 }
 
 .over {
@@ -59,7 +63,7 @@ img {
 	background-color: #fff; 
 }
 
-.teammate:hover .over {
+.over:hover {
 	opacity: 0.9; 
 	cursor: pointer;
 }

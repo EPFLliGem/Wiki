@@ -1,25 +1,28 @@
-html,body{
-    margin:0;
-    height:100%;
-    font-family: 'Roboto', sans-serif;
+.content-description p {
+        font-family: 'Roboto', sans-serif;
 }
 
 .content-description {
-	padding: 0;  
+        padding-top: 100px; 
+        line-height: normal;
 }
 
 .part-content {
 	margin-bottom: 100px; 
 }
 
-.part-content .title {
+.part-content>div {
+        font-family: 'Roboto', sans-serif;
 	text-align: center;  
 	font-size: 300%; 
 	color: #215054;	
 	padding-top: 50px;
+	padding-bottom: 30px;
+
 }
 
-.part-content p {
+.part-content>p {
+        font-family: 'Roboto', sans-serif;
 	font-size: 150%; 
 	padding-left: 15%; 
 	padding-right:15%;
@@ -27,15 +30,21 @@ html,body{
 }
 
 figure {
-
-	text-align: center; 
+	text-align:center; 
 	font-size: 150%; 
 	margin:0;
 	padding: 50px; 
+	color: #103E42;
+}
+
+figcaption {
+	text-align:left; 
+	padding-left: 15%; 
+	padding-right:15%;
 }
 
 figure img {
-	width: 60%; 
+	width:70%;
 	height: auto; 
 	padding-bottom: 10px;
 }

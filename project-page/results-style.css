@@ -5,7 +5,8 @@ html,body{
 }
 
 .content-description {
-	padding: 0;  
+	padding-top: 100px;  
+        line-height: normal;
 }
 
 .part-content {
@@ -28,7 +29,7 @@ html,body{
 	color: #103E42;
 }
 
-figure {
+figure, .subfigure-container {
 	text-align:center; 
 	font-size: 150%; 
 	margin:0;
@@ -42,8 +43,16 @@ figcaption {
 	padding-right:15%;
 }
 
-figure img {
+figure>img {
 	width:70%;
 	height: auto; 
 	padding-bottom: 10px;
+}
+
+
+.subfigure {
+	text-align:center; 
+        display:inline; 
+        float:left; 
+        width: 40%; 
 }

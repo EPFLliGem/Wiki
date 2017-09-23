@@ -1,4 +1,3 @@
-
 /***************************************************** DEFAULT WIKI SETTINGS  ****************************************************/
 	
 	/* Clear the default wiki settings */
@@ -18,7 +17,7 @@
 
 #menu-bar {
 	width: 100%;
- 	height: 5%; 
+ 	height: 50px; 
  	background-color: #02303A; 
  	position:fixed;
  	z-index: 200;
@@ -32,10 +31,11 @@
 	background-color: #02303A;
 	height: 100%;
 	opacity: 0.98;
-	padding: 5% 2%; 
+	padding: 70px 2%; 
         /*This sets the wrapper behind the menu-bar*/
  	z-index: 190;
         overflow: auto;
+
 }
 
 .menu-item {
@@ -47,12 +47,13 @@
 	padding: 10px; 
 	min-width: 250px; 
 	opacity: 0.98;
+        border-radius: 10px;
 
 }
 
 .menu-small {
 	display: inline;
-	width: 23.75%; 
+	width: 23.5%; 
 	height: 27%;
 	min-height: 20%; 
 }
@@ -85,7 +86,7 @@
 }
 
 
-.submenu-item>li:hover {
+.submenu-item>li>a:hover {
 	cursor: pointer;
 	color: #fff;
 }
