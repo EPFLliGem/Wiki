@@ -58,6 +58,6 @@ Team page: http://2017.igem.org/Team:EPFL
 	- Replace {X} by Aptamers, Lysates or Toehold
 	- Replace {Y} by Results or Description 
 3. Go to Wiki tools -> Edit
-4. Copy/PAste the prepared content before/after other `<div>` with `class="part-content"`, depending on the desired position in the Wiki. 
+4. Copy/PAste the prepared content between a `<div>`s with `class="part-content"`, depending on the desired position in the Wiki. 
 6. Save or preview the updated page
 
