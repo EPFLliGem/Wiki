@@ -7,7 +7,8 @@ Team page: http://2017.igem.org/Team:EPFL
 1. Go to http://2017.igem.org/Team:EPFL/Notebook
 2. Go to Wiki tools -> Edit 
 3. Place the content in this template
-       
+
+```html
 <div class="weekly-notebook {x}" id="week{y}">
 	<div class="date"> DD/MM/2017 - DD/MM/2017 </div>
 	<div class="goal">
@@ -22,6 +23,7 @@ Team page: http://2017.igem.org/Team:EPFL
 		</ul>
 	</div>
  </div>
+ ```
 		 
 	- Replace DD/MM with the coresponding date/month
         - Replace {y} with the number of week (i.e. 02 for the second week, 10 for the 10th week) 
