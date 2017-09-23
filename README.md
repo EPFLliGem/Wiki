@@ -25,9 +25,9 @@ Team page: http://2017.igem.org/Team:EPFL
  </div>
  ```
 		 
-	- Replace DD/MM with the coresponding date/month
-        - Replace {y} with the number of week (i.e. 02 for the second week, 10 for the 10th week) 
-        - Replace {x} with left if the week is odd or with right if the week is even
+- Replace DD/MM with the coresponding date/month
+- Replace {y} with the number of week (i.e. 02 for the second week, 10 for the 10th week) 
+- Replace {x} with left if the week is odd or with right if the week is even
 
 4. Find the line `<!-- Insert new week before this line -->`
 5. Copy/paste the prepared content above the line
