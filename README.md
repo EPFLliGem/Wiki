@@ -7,7 +7,8 @@ Team page: http://2017.igem.org/Team:EPFL
 1. Go to http://2017.igem.org/Team:EPFL/Notebook
 2. Go to Wiki tools -> Edit 
 3. Place the content in this template
-        ```html
+       
+       ```html
 		<div class="weekly-notebook {x}" id="week{y}">
 			<div class="date"> DD/MM/2017 - DD/MM/2017 </div>
 			<div class="goal">
