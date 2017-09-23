@@ -61,3 +61,10 @@ Team page: http://2017.igem.org/Team:EPFL
 4. Copy/PAste the prepared content between a `<div>`s with `class="part-content"`, depending on the desired position in the Wiki. 
 6. Save or preview the updated page
 
+## Upload image on the wiki server <id="upload-fig">
+1. Go to http://2017.igem.org/Team:EPFL 
+2. Go to Wiki tools -> Upload files 
+3. Select the desired file from your computer
+4. Fill in the `Destination filename` with `T--EPFL--page_nameOfFile.extension` where `page` is the name of the target page for the file, `extension` is the type of the file (i.e. jpg, png, ...) 
+5. Click on `Upload file`
+6. Click on the thumbnail of the image to be redirected to the link that you can use on the wiki
