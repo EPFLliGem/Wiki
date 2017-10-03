@@ -46,12 +46,19 @@ Team page: http://2017.igem.org/Team:EPFL
 ```html 
 <div class="part-content"> 
 	<div class="title" > Add the title of the section here </div>
+	<div class="subtitle">Add a subtitle here, this is optional</div>
 
 		<p> Add first paragraphe here</p>
 		<p> Add second paragraphe here</p>
 		<p> Add third paragraphe here...  </p>
-		<p> Add/Remove the <p>...</p> tags if you have more/less paragraphs to add .... </li>
-	</div>
+		<p> Add/Remove the <p>...</p> tags if you have more/less paragraphs to add .... </p>
+
+      	<div class="subtitle">Add another subtitle here, this is optional</div>
+
+                <p> Add first paragraphe here</p>
+		<p> Add second paragraphe here</p>
+		<p> Add third paragraphe here...  </p>
+		<p> Add/Remove the <p>...</p> tags if you have more/less paragraphs to add .... </p>           
 </div>
 ```
 In order to add a figure in your description, use this template: 
@@ -65,6 +72,16 @@ In order to add a figure in your description, use this template:
 </figure>
 ...
 ```
+In order to add a list instead of paragraph (don't put the list in paragraph), use this template: 
+
+```html
+<ul class="middle">
+	<li>First item</li>
+	<li>Second item</li>
+	<li>And so on...</li>
+</ul>
+```
+
 Follow [this](#upload-fig) description to get the link for your image. 
 
 2. Go to http://2017.igem.org/Team:EPFL/{Y}/{X}
