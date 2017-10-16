@@ -103,7 +103,11 @@ Follow [this](#upload-fig) description to get the link for your image.
 7. Copy the url and use it as `src` for your figure
 
 ---
+## Protocols 
+```html
 
+```
+---
 ## If it doesn't work?
 
 If something doesn't work or you have a suggestion to make please report an issue [here](https://github.com/EPFLliGem/Wiki/issues). 
