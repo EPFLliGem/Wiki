@@ -37,6 +37,23 @@ Team page: http://2017.igem.org/Team:EPFL
 
 `N.B. The option to add figures to notebooks will be added in few days.` 
 
+### Link a pdf
+
+1. Go to the bottom of the page and find this div: 
+
+```html
+<div class="weekly-notebook left" id="refs">
+	
+	<div class="goal">Detailed notebooks</div>
+	<div class="summary">
+		<ul>
+		    <li><a href="http://2017.igem.org/wiki/images/b/b7/T--EPFL--Buffer.pdf">Remove this</a></li>
+		</ul>
+	</div>
+ </div>
+```
+2. Upload your pdf as explained <a href="#upload-fig">here</a>
+3. Link it as showed in the example above (<li><a href="Link here">Name of the link here</a></li>)
 ---
 
 ## Aptamers, Toehold or Lysates description/results
