@@ -53,7 +53,7 @@ Team page: http://2017.igem.org/Team:EPFL
  </div>
 ```
 2. Upload your pdf as explained <a href="#upload-fig">here</a>
-3. Link it as showed in the example above (```html<li><a href="Link here">Name of the link here</a></li>```)
+3. Link it as showed in the example above (```html <li><a href="Link here">Name of the link here</a></li> ```)
 ---
 
 ## Aptamers, Toehold or Lysates description/results
@@ -110,11 +110,11 @@ Follow [this](#upload-fig) description to get the link for your image.
 
 --- 
 
-## Upload image on the wiki server <div id="upload-fig"/>
+## Upload image or pdf on the wiki server <div id="upload-fig"/>
 1. Go to http://2017.igem.org/Team:EPFL 
 2. Go to Wiki tools -> Upload files 
 3. Select the desired file from your computer
-4. Fill in the `Destination filename` with `T--EPFL--page_nameOfFile.extension` where `page` is the name of the target page for the file, `extension` is the type of the file (i.e. jpg, png, ...) 
+4. Fill in the `Destination filename` with `T--EPFL--page_nameOfFile.extension` where `page` is the name of the target page for the file, `extension` is the type of the file (i.e. jpg, png, pdf ...) 
 5. Click on `Upload file`
 6. Click on the thumbnail of the image to be redirected to the link that you can use on the wiki
 7. Copy the url and use it as `src` for your figure
