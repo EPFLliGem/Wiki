@@ -53,7 +53,7 @@ Team page: http://2017.igem.org/Team:EPFL
  </div>
 ```
 2. Upload your pdf as explained <a href="#upload-fig">here</a>
-3. Link it as showed in the example above (```html <li><a href="Link here">Name of the link here</a></li> ```)
+3. Link it as showed in the example above (``` <li><a href="Link here">Name of the link here</a></li> ```)
 ---
 
 ## Aptamers, Toehold or Lysates description/results
